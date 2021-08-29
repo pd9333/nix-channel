@@ -1,8 +1,9 @@
 let
   sources = import ./nix/sources.nix;
+  args = { inherit sources; };
   packages = pkgs: {
-    gost = pkgs.callPackage ./gost.nix { inherit sources; };
-    adguardhome = pkgs.callPackage ./adguardhome.nix { inherit sources; };
+    gost = pkgs.callPackage ./gost.nix args;
+    adguardhome = pkgs.callPackage ./adguardhome.nix args;
   };
 in
 { pkgs ? null }:
