@@ -1,4 +1,16 @@
 {
+    "gost": {
+        "branch": "master",
+        "description": "GO Simple Tunnel - a simple tunnel written in golang",
+        "homepage": "https://docs.ginuerzh.xyz/gost",
+        "owner": "ginuerzh",
+        "repo": "gost",
+        "rev": "v2.11.1",
+        "sha256": "1mxgjvx99bz34f132827bqk56zgvh5rw3h2xmc524wvx59k9zj2a",
+        "type": "tarball",
+        "url": "https://github.com/ginuerzh/gost/archive/v2.11.1.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",

@@ -1,6 +1,8 @@
 let
   sources = import ./nix/sources.nix;
-  packages = pkgs: { };
+  packages = pkgs: {
+    gost = pkgs.callPackage ./gost.nix { inherit sources; };
+  };
 in
 { pkgs ? null }:
 if builtins.isNull pkgs then
