@@ -1,1 +1,5 @@
 #+title: nix-channel
+* usage
+#+begin_src sh :eval no
+  nix-channel --add https://github.com/pd9333/nix-channel/archive/trunk.tar.gz pd
+#+end_src
