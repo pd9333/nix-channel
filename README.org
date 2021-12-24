@@ -14,3 +14,8 @@ For instance, if we want to update ~adguardhome~ to ~0.106.0~:
 #+begin_src sh
   niv update adguardhome -a rev=v0.106.0
 #+end_src
+
+However, for ~adguardhome~ we need to fix the ~sha256~ in ~nix/sources.json~ with the one of:
+#+begin_src sh
+  nix-prefetch-url --type sha256 $url
+#+end_src
