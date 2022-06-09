@@ -2,10 +2,10 @@
     "adguardhome": {
         "description": "Network-wide ads & trackers blocking DNS server",
         "homepage": "https://github.com/AdguardTeam/AdGuardHome",
-        "rev": "v0.107.6",
-        "sha256": "1rq5hwzpg5d961z08yyj1d5c9lbabkihd9acrrifzm969l12mxww",
+        "rev": "v0.107.7",
+        "sha256": "0d8pz5zbs9i95iq7cph5iizr9g172aysbyk6rw25hx2635afbd3i",
         "type": "tarball",
-        "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.6/AdGuardHome_linux_amd64.tar.gz",
+        "url": "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.7/AdGuardHome_linux_amd64.tar.gz",
         "url_template": "https://github.com/AdguardTeam/AdGuardHome/releases/download/<rev>/AdGuardHome_linux_amd64.tar.gz"
     },
     "gost": {
