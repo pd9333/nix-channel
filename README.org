@@ -10,9 +10,9 @@ For example, to build ~gost~:
   nix-build . -A gost
 #+end_src
 ** upgrade a package
-For instance, if we want to update ~adguardhome~ to ~0.107.2~:
+For instance, if we want to update ~adguardhome~ to ~0.107.8~:
 #+begin_src sh
-  niv update adguardhome -a rev=v0.107.2
+  niv update adguardhome -a rev=v0.107.8
 #+end_src
 
 However, for ~adguardhome~ we need to fix the ~sha256~ in ~nix/sources.json~ with the one of:
